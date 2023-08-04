@@ -1,0 +1,56 @@
+﻿@page
+@using global::Shared;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+
+    @if (ViewData["WeatherForecast"] != null)
+    {
+
+        var weatherForecastJson = ViewData["WeatherForecast"].ToString();
+        var weatherForecast = Newtonsoft.Json.JsonConvert.DeserializeObject<List<WeatherForecast>>(weatherForecastJson);
+
+
+        @if (weatherForecast.Count > 0)
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Temperature (C)</th>
+                        <th>Temperature (F)</th>
+                        <th>Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var weather in weatherForecast)
+                    {
+                        <tr>
+                            <td>@weather.Date</td>
+                            <td>@weather.TemperatureC</td>
+                            <td>@weather.TemperatureF</td>
+                            <td>@weather.Summary</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No weather forecast data available.</p>
+        }
+    }
+    else
+    {
+        <p>Loading...</p>
+    }
+</body>
+</html>

@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  easypeasybox.frontend:
+    image: ${DOCKER_REGISTRY-}easypeasyboxfrontend
+    build:
+      context: .
+      dockerfile: EasyPeasyBox.Frontend/Dockerfile
+
+  easypeasybox.backend:
+    image: ${DOCKER_REGISTRY-}easypeasyboxbackend
+    build:
+      context: .
+      dockerfile: EasyPeasyBox.Backend/Dockerfile
+
