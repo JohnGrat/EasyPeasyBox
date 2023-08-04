@@ -9,7 +9,7 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyPeasyBox.Frontend", "EasyPeasyBox.Frontend\EasyPeasyBox.Frontend.csproj", "{D79EC38B-5D1A-42C1-A21A-F3E16D4124A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "..\Shared\Shared.csproj", "{AD2993AB-3EEA-4E88-AF32-3CB9AB28CE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyPeasyBox.Shared", "EasyPeasyBox.Shared\EasyPeasyBox.Shared.csproj", "{420547C5-391B-4023-BBB3-1FE771A4876C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{D79EC38B-5D1A-42C1-A21A-F3E16D4124A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79EC38B-5D1A-42C1-A21A-F3E16D4124A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79EC38B-5D1A-42C1-A21A-F3E16D4124A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD2993AB-3EEA-4E88-AF32-3CB9AB28CE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD2993AB-3EEA-4E88-AF32-3CB9AB28CE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD2993AB-3EEA-4E88-AF32-3CB9AB28CE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD2993AB-3EEA-4E88-AF32-3CB9AB28CE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420547C5-391B-4023-BBB3-1FE771A4876C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420547C5-391B-4023-BBB3-1FE771A4876C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420547C5-391B-4023-BBB3-1FE771A4876C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420547C5-391B-4023-BBB3-1FE771A4876C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

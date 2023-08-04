@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\Shared.csproj" />
+    <ProjectReference Include="..\EasyPeasyBox.Shared\EasyPeasyBox.Shared.csproj" />
   </ItemGroup>
 
 </Project>

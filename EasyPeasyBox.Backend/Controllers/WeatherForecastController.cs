@@ -1,5 +1,5 @@
+using EasyPeasyBox.Shared;
 using Microsoft.AspNetCore.Mvc;
-using Shared;
 
 namespace EasyPeasyBox.Backend.Controllers
 {
